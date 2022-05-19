@@ -1,0 +1,263 @@
+                /*<-----------------------------------3.1 project_list_page_content--------------------------------------------->*/
+                
+                @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+                @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+                /* banner-list */
+                
+                .breadcrumb-area h1.big-text {
+                    top: 45%;
+                }
+                
+                .breadcrumb-area {
+                    z-index: 1;
+                    height: 515px;
+                }
+                
+                .breadcrumb-area::after {
+                    position: absolute;
+                    left: 0;
+                    top: 0;
+                    width: 100%;
+                    height: 100%;
+                    background-color: #0f172b;
+                    content: '';
+                    z-index: -2;
+                    opacity: 0.76;
+                }
+                
+                .breadcrumb-area .breadcrumb-content h1 {
+                    color: #fff;
+                    font-size: 120px;
+                    margin-bottom: 30px;
+                    line-height: 120px;
+                }
+                
+                .breadcrumb-area .breadcrumb-content li {
+                    color: #fff;
+                    margin-right: 20px;
+                    font-size: 35px;
+                    line-height: 38px;
+                    font-weight: 500;
+                }
+                
+                .breadcrumb-area .breadcrumb-content li a {
+                    color: #fea116;
+                }
+                /* menu-list*/
+                
+                .filter-view {
+                    background-color: #fff;
+                    margin-bottom: 45px;
+                    padding: 20px;
+                }
+                
+                .filter-view ul li {
+                    display: inline-block;
+                    margin-right: 15px;
+                    font-size: 18px;
+                    font-weight: 700;
+                    cursor: pointer;
+                    padding: 5px 0;
+                    position: relative;
+                    transition: all 400ms ease-out 0s;
+                }
+                
+                .filter-view ul li::after {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    height: 2px;
+                    width: 0;
+                    background-color: #fea116;
+                    content: '';
+                    opacity: 0;
+                    transition: all 400ms ease-out 0s;
+                }
+                
+                .filter-view ul li.active-f-view,
+                .filter-view ul li:hover {
+                    color: #fea116;
+                }
+                
+                .filter-view ul li:hover::after,
+                .filter-view ul li.active-f-view::after {
+                    opacity: 1;
+                    width: 100%;
+                }
+                /* room */
+                
+                .rooms-warp .single-room {
+                    margin-bottom: 30px;
+                }
+                
+                .single-room {
+                    background-color: #fff;
+                    color: #666565;
+                }
+                
+                .single-room.list-style .room-desc {
+                    padding: 25px 35px;
+                }
+                
+                .single-room.list-style .room-desc .room-cat {
+                    margin-top: 0px;
+                    margin-bottom: 20px;
+                }
+                /* booking */
+                
+                .sidebar-wrap .widget {
+                    padding: 40px 30px;
+                    background-color: #fff;
+                    margin-bottom: 40px;
+                }
+                
+                .sidebar-wrap .widget .widget-title {
+                    margin-bottom: 30px;
+                    padding-bottom: 20px;
+                    position: relative;
+                }
+                
+                .sidebar-wrap .widget .widget-title::after,
+                .sidebar-wrap .widget .widget-title::before {
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    width: 10px;
+                    height: 2px;
+                    background-color: #fea116;
+                    content: '';
+                }
+                
+                .sidebar-wrap .widget .widget-title::after {
+                    left: 17px;
+                    width: 25px;
+                }
+                
+                .sidebar-wrap .widget.fillter-widget .input-wrap {
+                    margin-bottom: 30px;
+                }
+                
+                .input-wrap {
+                    position: relative;
+                }
+                
+                .sidebar-wrap .widget.fillter-widget .input-wrap input,
+                .sidebar-wrap .widget.fillter-widget .input-wrap .nice-select {
+                    font-size: 16px;
+                    color: #666565;
+                    height: 60px;
+                    line-height: 60px;
+                }
+                
+                .input-wrap i {
+                    position: absolute;
+                    color: #fea116;
+                    background: transparent;
+                    right: 25px;
+                    top: 50%;
+                    transform: translateY(-50%);
+                }
+                
+                .nice-select .option.disabled {
+                    background-color: transparent;
+                    color: #999;
+                    cursor: default;
+                }
+                
+                .sidebar-wrap .widget.fillter-widget .slider-range {
+                    padding-left: 10px;
+                    padding-right: 10px;
+                }
+                
+                .sidebar-wrap .widget.fillter-widget .checkboxes label {
+                    margin-bottom: 0;
+                    font-size: 16px;
+                    font-weight: 600;
+                    position: relative;
+                    display: inline-block;
+                    padding-left: 15px;
+                }
+                
+                .sidebar-wrap .widget.fillter-widget .checkboxes label::before {
+                    height: 16px;
+                    width: 16px;
+                    border: 1px solid;
+                    left: -18px;
+                    top: 5px;
+                }
+                
+                .sidebar-wrap .widget.fillter-widget .checkboxes input[type='checkbox'] {
+                    height: 15px;
+                    width: 15px;
+                }
+                
+                .sidebar-wrap .widget .btn i {
+                    position: unset;
+                    transform: translate(0);
+                    color: #fff;
+                }
+                
+                .sidebar-wrap .widget.fillter-widget .btn {
+                    padding: 20px;
+                }
+                
+                .sidebar-wrap .widget.fillter-widget .btn i {
+                    color: #fff;
+                }
+                
+                .icon {
+                    top: 55px !important;
+                }
+                
+                .rooms-warp .pagination-wrap {
+                    text-align: left;
+                }
+                
+                .pagination-wrap li a {
+                    height: 50px;
+                    width: 50px;
+                    line-height: 50px;
+                    background-color: #0f172b;
+                    color: #fff;
+                    font-size: 18px;
+                    font-family: "Montserrat", sans-serif;
+                    font-weight: 600;
+                    display: block;
+                    text-align: center;
+                    border-radius: 50%;
+                    transition: all 400ms ease-out 0s;
+                }
+                
+                .primary-bg {
+                    background-color: #fea116;
+                }
+                
+                .pagination-wrap .active a {
+                    background-color: #fea116;
+                }
+                
+                .pagination-wrap li a:hover {
+                    background-color: #fea116;
+                }
+                
+                .single-room .room-desc h4 a:hover {
+                    color: #fea116;
+                }
+                
+                @media (max-width: 1199.98px) and (min-width: 992px) {
+                    .single-room .room-desc .room-info li {
+                        margin-right: 5px;
+                    }
+                }
+                
+                @media (max-width: 767px) {
+                    .breadcrumb-area .breadcrumb-content h1 {
+                        font-size: 50px;
+                        margin-bottom: 0;
+                        line-height: 45px;
+                    }
+                    .breadcrumb-area .breadcrumb-content li {
+                        font-size: 18px;
+                        margin-right: 10px;
+                    }
+                }

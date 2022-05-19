@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 28px;
+    font-size: 16px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    color: #666565;
+    overflow-x: hidden;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    -webkit-transition: all 400ms ease-out 0s;
+    transition: all 400ms ease-out 0s;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+input,
+select,
+textarea,
+.nice-select {
+    background-color: #fff;
+    border: 2px solid #dfe9f4;
+    height: 80px;
+    font-weight: 600;
+    color: #0f172b;
+    font-size: 18px;
+    padding: 0 45px 0 30px;
+    border-radius: 5px;
+    width: 100%;
+    line-height: 80px;
+}
+
+.section-padding {
+    padding: 130px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Montserrat", sans-serif;
+    color: #0f172b;
+    font-weight: 700;
+    line-height: 38px;
+    margin-bottom: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.bg-img-center {
+    background-color: #0f172b;
+    background-position: center;
+    background-size: cover;
+}
+
+input:focus {
+    outline: none;
+}
+
+h1.big-text {
+    position: absolute;
+    left: 50%;
+    top: 39%;
+    font-size: 300px;
+    transform: translateX(-50%);
+    line-height: 60px;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    opacity: 0.11;
+    z-index: -1;
+}
+
+.single-room .room-thumb {
+    overflow: hidden;
+}
+
+.single-room {
+    background-color: #fff;
+    color: #666565;
+}
+
+.slick-slide img {
+    display: inline-block;
+}
+
+.single-room:hover .room-thumb img {
+    transform: scale(1.1);
+}
+
+.single-room .room-desc {
+    padding: 50px 22px 50px 40px;
+    position: relative;
+}
+
+.single-room .room-desc h4 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.single-room .room-desc h4 a {
+    color: #0f172b;
+}
+
+.single-room .room-desc .room-info {
+    margin-top: 30px;
+}
+
+.single-room .room-desc .room-cat,
+.single-room .room-desc .room-price {
+    padding: 8px 15px;
+    background-color: #fea116;
+    font-size: 15px;
+    display: inline-block;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 700;
+    margin-top: 30px;
+}
+
+.single-room .room-desc .room-info li {
+    margin-right: 30px;
+}
+
+.single-room .room-desc .room-info i {
+    color: #fea116;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+.single-room .room-desc .room-info li:last-child {
+    margin-right: 0;
+}
+
+.brands-section {
+    padding: 70px 0;
+}
+
+.slick-initialized .slick-slide:focus {
+    outline: none;
+}
+
+.nice-select .option1 {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    min-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    transition: all .2s;
+}
+
+.nice-select .option2 {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    min-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    transition: all .2s;
+}
+
+.nice-select .option3 {
+    cursor: pointer;
+    font-weight: 400;
+    line-height: 40px;
+    list-style: none;
+    min-height: 40px;
+    outline: none;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    transition: all .2s;
+}
+
+.nice-select .option1.selected {
+    font-weight: 700;
+}
+
+.nice-select .option2.selected {
+    font-weight: 700;
+}
+
+.nice-select .option3.selected {
+    font-weight: 700;
+}

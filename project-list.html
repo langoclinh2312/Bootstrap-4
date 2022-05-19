@@ -1,0 +1,841 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project-list</title>
+    <link rel="stylesheet" href="assets/fonts/css/all.min.css">
+    <link rel="stylesheet" href="assets/fonts/css/fontawesome.min.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <link rel="stylesheet" href="jquery/rangeSlider.css">
+    <link rel="stylesheet" href="bootstrap/css/datepicker.css">
+    <link rel="stylesheet" href="assets/css/project_list.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-top section-bg">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-4 col-lg-7 offset-xl-3 col-md-6">
+                        <ul class="top-contact-info list-inline">
+                            <li><i class="fas fa-map-marker-alt"></i>205 Main Rood, New York</li>
+                            <li><i class="fas fa-phone"></i>+89(456) 789 999</li>
+                        </ul>
+                    </div>
+                    <div class="col-xl-5 col-lg-5 col-md-6">
+                        <div class="top-right text-right">
+                            <ul class="top-menu list-inline d-inline">
+                                <li><a href="">Home</a></li>
+                                <li><a href="">Services</a></li>
+                                <li><a href="">Privacy</a></li>
+                            </ul>
+                            <ul class="top-social-icon list-inline
+                                    d-inline">
+                                <li><a href="#"><i class="fab
+                                                fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fab fa-google"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-xl-3 col-lg-3 col-md-4 col-7">
+                        <div class="logo">
+                            <a href="inex.html"><img src="assets/images/logo.png" alt="Avson"></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-8 col-5">
+                        <div class="menu-right-area text-right">
+                            <div class="lag-select">
+                                <div class="lag-img">
+                                    <img src="assets/images/language/enghlish.png" alt="Flug">
+                                </div>
+                                <div class="lag-option">
+                                    <div class="nice-select" id="language_list" tabindex="0">
+                                        <span class="current" id="language_btn">English</span>
+                                        <ul class="list" style="display:
+                                                block;">
+                                            <li class="option selected">English</li>
+                                            <li class="option">Bangla</li>
+                                            <li class="option">Hindi</li>
+                                        </ul>
+                                        <i class="fas fa-angle-down"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <nav class="main-menu">
+                                <ul class="list-inline">
+                                    <li class="have-submenu
+                                            active-page">
+                                        <a href="index.html">Home</a>
+                                        <ul class="submenu">
+                                            <li><a href="inex.html">Home
+                                                        1</a></li>
+                                            <li><a href="inex.html">Home
+                                                        2</a></li>
+                                        </ul>
+                                        <i class="fas fa-angle-down"></i>
+                                    </li>
+                                    <li class="have-submenu">
+                                        <a href="">Rooms</a>
+                                        <ul class="submenu">
+                                            <li><a href="project-list.html">Room
+                                                        List</a></li>
+                                            <li><a href="project-list.html">Room
+                                                        Gird</a></li>
+                                            <li><a href="project-detail.html">Room
+                                                        Details</a></li>
+                                        </ul>
+                                        <i class="fas fa-angle-down"></i>
+                                    </li>
+                                    <li><a href="">Services</a></li>
+                                    <li class="have-submenu">
+                                        <a href="blog.html">News</a>
+                                        <ul class="submenu">
+                                            <li><a href="blog-gird.html">News
+                                                        Gird</a></li>
+                                            <li><a href="blog.html">News
+                                                        Standard</a></li>
+                                            <li><a href="blog-details.html">News
+                                                        Details</a></li>
+                                        </ul>
+                                        <i class="fas fa-angle-down"></i>
+                                    </li>
+                                    <li class="have-submenu">
+                                        <a href="">Pages</a>
+                                        <i class="fas fa-angle-down"></i>
+                                    </li>
+                                    <li><a href="">Gallery</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                            </nav>
+                            <div class="search-wrap">
+                                <a href="#" class="search-icon"><i
+                                            class="fas fa-search"></i></a>
+                                <a href="#" class="search-icon
+                                        icon-close">
+                                    <i class="fas fa-times"></i>
+                                </a>
+                                <div class="search-form">
+                                    <form>
+                                        <input type="search" placeholder="TYPE AND PRESS
+                                                ENTER.....">
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="quote-btn">
+                                <a href="#" class="btn filled-btn">get a
+                                        quote <i class="fas
+                                            fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="navbar-toggler nav-mobile collapsed" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle
+                        navigation">
+                        <i class="fas fa-bars"></i>
+                        <i class="fas fa-times"></i>
+                    </button>
+                <div class="MobileMenu mean-container">
+                    <div class="collapse" id="navbarToggleExternalContent">
+                        <nav class="mean-nav">
+                            <ul class="list-inline">
+                                <li class="have-submenu">
+                                    <a href="index.html">Home</a>
+                                    <ul class="submenu submenu-home">
+                                        <li><a href="inex.html">Home 1</a></li>
+                                        <li><a href="inex.html">Home 2</a></li>
+                                    </ul>
+                                    <a class="mean-expand mean-expand-home" href="#" style="font-size:
+                                            20px">+</a>
+                                </li>
+                                <li class="have-submenu">
+                                    <a href="project-list.html">Rooms</a>
+                                    <ul class="submenu submenu-room">
+                                        <li><a href="project-list.html">Room
+                                                    List</a></li>
+                                        <li><a href="project-list.html">Room
+                                                    Gird</a></li>
+                                        <li><a href="project-detail.html">Room
+                                                    Details</a></li>
+                                    </ul>
+                                    <a class="mean-expand mean-expand-room" href="#" style="font-size: 20px">+</a>
+                                    <li><a href="service.html">Services</a></li>
+                                    <li class="have-submenu">
+                                        <a href="blog.html">News</a>
+                                        <ul class="submenu submenu-news">
+                                            <li><a href="blog-gird.html">News
+                                                        Gird</a></li>
+                                            <li><a href="blog.html">News
+                                                        Standard</a></li>
+                                            <li><a href="blog-details.html">News
+                                                        Details</a></li>
+                                        </ul>
+                                        <a class="mean-expand
+                                                mean-expand-news" href="#" style="font-size: 20px">+</a>
+                                        <li class="have-submenu">
+                                            <a href="">Pages</a>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                            <li><a href="our-staff.html">Our
+                                                        Staff</a></li>
+                                            <li><a href="resturent.html">Resturent</a></li>
+                                            <li><a href="reservation.html">Reservation</a>
+                                            </li>
+                                            <li><a href="gallery.html">Gallery</a></li>
+                                            <li class="mean-last"><a href="contact.html">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="breadcrumb-area d-flex
+                            align-items-center position-relative bg-img-center" style="background-image:
+                            url(assets/images/banner/banner_project_list.jpg);">
+            <div class="container">
+                <div class="breadcrumb-content text-center">
+                    <h1>Our Room</h1>
+                    <ul class="list-inline">
+                        <li><a href="index.html">Home</a></li>
+                        <li><i class="fas
+                                                fa-angle-double-right"></i></li>
+                        <li>Room List</li>
+                    </ul>
+                </div>
+            </div>
+            <h1 class="big-text">
+                Room
+            </h1>
+        </section>
+        <section class="rooms-warp list-view section-bg
+                            section-padding">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="filter-view">
+                            <ul>
+                                <li class="active-f-view">Default Sorting
+                                </li>
+                                <li>Low To High</li>
+                                <li>High To Low</li>
+                                <li>View A to Z</li>
+                                <li>View Z to A</li>
+                                <li>Popular</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-8">
+                        <div class="single-room list-style">
+                            <div class="row align-items-center
+                                                no-gutters">
+                                <div class="col-lg-6">
+                                    <div class="room-thumb">
+                                        <img src="assets/images/room/room01.jpg" alt="Room">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="room-desc">
+                                        <div class="room-cat">
+                                            <p>Guest House</p>
+                                        </div>
+                                        <h4><a href="project-detail.html">Modern
+                                                                Guest Rooms</a></h4>
+                                        <ul class="room-info
+                                                            list-inline">
+                                            <li><i class="fas
+                                                                    fa-bed"></i>3 Bed
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-bath"></i>2 Baths
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-pencil-ruler"></i>72 m
+                                            </li>
+                                        </ul>
+                                        <div class="room-price">
+                                            <p>$180.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-room list-style">
+                            <div class="row align-items-center
+                                                no-gutters">
+                                <div class="col-lg-6">
+                                    <div class="room-thumb">
+                                        <img src="assets/images/room/room02.jpg" alt="Room">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="room-desc">
+                                        <div class="room-cat">
+                                            <p>Meeting Room</p>
+                                        </div>
+                                        <h4><a href="project-detail.html">Conference
+                                                                Room</a></h4>
+                                        <ul class="room-info
+                                                            list-inline">
+                                            <li><i class="fas
+                                                                    fa-bed"></i>3 Bed
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-bath"></i>2 Baths
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-pencil-ruler"></i>72 m
+                                            </li>
+                                        </ul>
+                                        <div class="room-price">
+                                            <p>$180.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-room list-style">
+                            <div class="row align-items-center
+                                                no-gutters">
+                                <div class="col-lg-6">
+                                    <div class="room-thumb">
+                                        <img src="assets/images/room/room03.jpg" alt="Room">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="room-desc">
+                                        <div class="room-cat">
+                                            <p>Guest House</p>
+                                        </div>
+                                        <h4><a href="project-detail.html">Deluxe
+                                                                Couple Room</a></h4>
+                                        <ul class="room-info
+                                                            list-inline">
+                                            <li><i class="fas
+                                                                    fa-bed"></i>3 Bed
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-bath"></i>2 Baths
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-pencil-ruler"></i>72 m
+                                            </li>
+                                        </ul>
+                                        <div class="room-price">
+                                            <p>$180.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-room list-style">
+                            <div class="row align-items-center
+                                                no-gutters">
+                                <div class="col-lg-6">
+                                    <div class="room-thumb">
+                                        <img src="assets/images/room/room04.jpg" alt="Room">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="room-desc">
+                                        <div class="room-cat">
+                                            <p>Meeting Room</p>
+                                        </div>
+                                        <h4><a href="project-detail.html">Conference
+                                                                Room</a></h4>
+                                        <ul class="room-info
+                                                            list-inline">
+                                            <li><i class="fas
+                                                                    fa-bed"></i>3 Bed
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-bath"></i>2 Baths
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-pencil-ruler"></i>72 m
+                                            </li>
+                                        </ul>
+                                        <div class="room-price">
+                                            <p>$180.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-room list-style">
+                            <div class="row align-items-center
+                                                no-gutters">
+                                <div class="col-lg-6">
+                                    <div class="room-thumb">
+                                        <img src="assets/images/room/room05.jpg" alt="Room">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6">
+                                    <div class="room-desc">
+                                        <div class="room-cat">
+                                            <p>Guest House</p>
+                                        </div>
+                                        <h4><a href="project-detail.html">Deluxe
+                                                                Couple Room</a></h4>
+                                        <ul class="room-info
+                                                            list-inline">
+                                            <li><i class="fas
+                                                                    fa-bed"></i>3 Bed
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-bath"></i>2 Baths
+                                            </li>
+                                            <li><i class="fas
+                                                                    fa-pencil-ruler"></i>72 m
+                                            </li>
+                                        </ul>
+                                        <div class="room-price">
+                                            <p>$180.00</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="sidebar-wrap">
+                            <div class="widget fillter-widget">
+                                <h4 class="widget-title">Your Reservation
+                                </h4>
+                                <form>
+                                    <div class="input-wrap">
+                                        <input type="text" placeholder="Location" id="location">
+                                        <i class="fas
+                                                            fa-search"></i>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="text" placeholder="Arrive
+                                                            Date" id="arrive-date">
+                                        <i class="far
+                                                            fa-calendar-alt"></i>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <input type="text" placeholder="Depart
+                                                            Date" id="depart-date">
+                                        <i class=""></i>
+                                        <i class="far
+                                                            fa-calendar-alt"></i>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <div class="nice-select" id="Guests_list">
+                                            <span class="current" id="Guests_btn">Rooms</span>
+                                            <ul class="list">
+                                                <li class="option
+                                                                    disabled">Rooms</li>
+                                                <li class="option
+                                                                    option1
+                                                                    selected">1</li>
+                                                <li class="option
+                                                                    option1">2</li>
+                                                <li class="option
+                                                                    option1">3</li>
+                                            </ul>
+                                            <i class="fas
+                                                                fa-angle-down
+                                                                icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <div class="nice-select" id="Adult_list">
+                                            <span class="current" id="Adult_btn">Adult</span>
+                                            <ul class="list">
+                                                <li class="option
+                                                                    disabled">Adults</li>
+                                                <li class="option
+                                                                    option2
+                                                                    selected">1</li>
+                                                <li class="option
+                                                                    option2">2</li>
+                                                <li class="option
+                                                                    option2">3</li>
+                                            </ul>
+                                            <i class="fas
+                                                                fa-angle-down
+                                                                icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <div class="nice-select" id="Children_list">
+                                            <span class="current" id="Children_btn">Children</span>
+                                            <ul class="list">
+                                                <li class="option
+                                                                    disabled">Children</li>
+                                                <li class="option
+                                                                    option4
+                                                                    selected">1</li>
+                                                <li class="option
+                                                                    option4">2</li>
+                                                <li class="option
+                                                                    option4">3</li>
+                                            </ul>
+                                            <i class="fas
+                                                                fa-angle-down
+                                                                icon"></i>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <div class="price-range-wrap">
+                                            <div class="slider-range">
+                                                <div id="sliderrange">
+                                                    <input type="range" name="" id="">
+                                                </div>
+                                            </div>
+                                            <div class="price-ammount">
+                                                <input type="text" id="amount" name="price" placeholder="Add
+                                                                    Your
+                                                                    Price">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <div class="checkboxes">
+                                            <p>
+                                                <input type="checkbox" id="guest-room">
+                                                <label for="guest-room">Guest
+                                                                    Room</label>
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="meeting-room">
+                                                <label for="meeting-room">Meeting
+                                                                    Room
+                                                                </label>
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="wifi">
+                                                <label for="wifi">Free
+                                                                    Wifi</label>
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="pet">
+                                                <label for="pet">Pet
+                                                                    Friendly</label>
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="parking">
+                                                <label for="parking">Parking</label>
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="pureair">
+                                                <label for="pureair">Pure
+                                                                    Air</label>
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="airc">
+                                                <label for="airc">Air
+                                                                    Conditioner</label>
+                                            </p>
+                                            <p>
+                                                <input type="checkbox" id="nosmoke">
+                                                <label for="nosmoke">No
+                                                                    Smoking</label>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="input-wrap">
+                                        <button type="submit" class="btn
+                                                            filled-btn
+                                                            btn-block">
+                                                            Filter
+                                                            Results<i
+                                                                class="fas
+                                                                fa-long-arrow-alt-right"></i>
+                                                        </button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="pagination-wrap">
+                            <ul class="list-inline">
+                                <li><a href=""><i
+                                                            class="fas
+                                                            fa-angle-left"></i></a></li>
+                                <li class="active"><a href="">01</a></li>
+                                <li><a href="">02</a></li>
+                                <li><a href="">03</a></li>
+                                <li><a href=""><i
+                                                            class="fas
+                                                            fa-angle-right"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="brands-section primary-bg">
+            <div class="container">
+                <div id="brandsSlideActive" class="row">
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands1.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands2.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands3.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands4.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands5.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands1.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands2.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands3.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands4.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands5.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands1.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands2.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands3.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands4.png" alt="Brands">
+                        </div>
+                    </div>
+                    <div class="col-lg-2">
+                        <div class="brand-item
+                                            text-center">
+                            <img src="assets/images/barnds/brands5.png" alt="Brands">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer-top">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="widget
+                                            footer-widget">
+                            <div class="footer-logo">
+                                <img src="assets/images/logo.png" alt="Logo">
+                            </div>
+                            <p>Avoids pleasure itself, because pleasure, but because those who do not</p>
+                            <ul class="social-icons">
+                                <li><a href="#"><i
+                                                            class="fab
+                                                            fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i
+                                                            class="fab
+                                                            fa-twitter"></i></a></li>
+                                <li><a href="#"><i
+                                                            class="fab
+                                                            fa-instagram"></i></a></li>
+                                <li><a href="#"><i
+                                                            class="fab
+                                                            fa-google"></i></a></li>
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="widget
+                                            footer-widget">
+                            <h4 class="widget-title">Quick Links
+                            </h4>
+                            <ul class="nav-widget
+                                                clearfix">
+                                <li><a href="">Latest
+                                                        Services</a></li>
+                                <li><a href="">Our
+                                                        History</a></li>
+                                <li><a href="">Need A
+                                                        Career ?</a></li>
+                                <li><a href="">My
+                                                        Account</a></li>
+                                <li><a href="">Meet The
+                                                        Team</a></li>
+                                <li><a href="">Web
+                                                        Security</a></li>
+                                <li><a href="">Setting
+                                                        &amp;
+                                                        Privacy</a></li>
+                                <li><a href="">Domain
+                                                        &amp;
+                                                        Hosting</a></li>
+                                <li><a href="">Case
+                                                        Study</a></li>
+                                <li><a href="">Server
+                                                        System</a></li>
+                                <li><a href="">Company
+                                                        Fact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="widget
+                                            footer-widget">
+                            <h4 class="widget-title">Recent News
+                            </h4>
+                            <ul class="recent-post">
+                                <li>
+                                    <div class="recent-post-img">
+                                        <img src="assets/images/footer/footer1.jpg" alt="News">
+                                    </div>
+                                    <h6><a href="">Using
+                                                            Low
+                                                            Vision As My
+                                                            Too Me Teach
+                                                            WordPress</a></h6>
+                                    <span class="recent-post-date">05
+                                                        Jan 20</span>
+                                </li>
+                                <li>
+                                    <div class="recent-post-img">
+                                        <img src="assets/images/footer/footer2.jpg" alt="News">
+                                    </div>
+                                    <h6><a href="">Embarking
+                                                            On
+                                                            New Advent
+                                                            Inspiring
+                                                            Desktop
+                                                            Wall</a></h6>
+                                    <span class="recent-post-date">05
+                                                        Jan 20</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <a href="#" class="back-to-top"><i
+                                        class="fas
+                                        fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="footer-nav">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Team</a></li>
+                            <li><a href="">Features</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="copy-right
+                                            text-right">Copyright ©2020. All Rights Reserved</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="jquery/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="jquery/bootstrap-datepicker.js"></script>
+<script>
+    //Date time picker
+    $('#arrive-date, #depart-date').datepicker({
+        format: 'd-m-yyyy',
+        autoclose: true
+    });
+    // Counter UP init
+    $('.counter-number').counterUp({
+        delay: 100,
+        time: 3000
+    });
+</script>
+<script src="jquery/slick.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script src="assets/js/scripdropdow.js"></script>
+
+</html>
